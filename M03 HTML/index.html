@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <title>My Portfolio</title>
@@ -10,23 +11,37 @@
     <link rel="stylesheet" href="../M04 CSS/reset.css">
     <link rel="stylesheet" href="../M04 CSS/style.css">
 </head>
+
 <body>
     <header>
         <h1 style="text-align: center;">My Portfolio 😎</h1>
-        <nav>
-            <ul>
-                <li><a href="#SobreMi">Info Carlos Mota</a></li>
-                <li><a href="#TecnologyFav">Favorite Tecnology</a></l>
-                <li><a href="#ActivityFav">Activity Favorite</a></li>
-            </ul>
+        <nav class="nav">
+            <ul class="navul">
+                <li class="navli">
+                <span class="navli_inner">
+                <span class="navli_title"><a href="#SobreMi" style="color: black;">Info Carlos Mota</a></span>
+                </span>
+                </li>
+
+                <li class="navli">
+                <span class="navli_inner">
+                <span class="navli_title"><a href="#TecnologyFav" style="color: black;">Tecnología Favorita</a></span>
+                </span>
+                </li>
+                <li class="navli">
+                <span class="navli_inner">
+                <span class="navli_title"><a href="#ActivityFav" style="color: black;">Actividades Favoritas</a></span>
+                </span>
+                </li>
+                </ul>
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="contenido">
 
             <section id="SobreMi">
-                <h4 style="text-align: center;"> Info Carlos Mota</h4>
-                <p>Hola soy carlos, mejor conocido como mota. Tristemente no pase el modulo 1 porque me confie con las homeworks y nunca las realice hasta que faltaban menos de 24 horas y el javascript no lo domino bien todavia. Cambiando un poco mas de mi, reciemente llego al pais de argentina, me encuentro en la provincia de san juan y quiero aprender a programar para dar mas comodidas a las personas en mi entorno, ya que de donde vengo en los ultimos años no hemos tenido ni los servicios basicos.</p>
+                <h2 style="text-align: center;"> Info Carlos Mota</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus perspiciatis dignissimos ad placeat voluptatem fugit cum harum debitis. Autem ab corporis recusandae expedita nemo! Nesciunt eaque hic libero autem.. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, veritatis. Omnis sunt qui nihil possimus asperiores repellat. Repudiandae illum similique vel quisquam obcaecati, esse iure sapiente ex ducimus assumenda maxime!</p>
             </section>
             <section id="TecnologyFav">
                 <h2>My favorite tecnology</h2>
@@ -46,18 +61,18 @@
             </section>
             <section id="ActivityFav">
                 <h2>Mis Actividades Favoritas</h2>
-                <form id="formulario-actividad">
-                    <input type="text" id="titulo" placeholder="Título">
-                    <input type="text" id="descripcion" placeholder="Descripción">
-                    <input type="url" id="url-imagen" placeholder="URL de la Imagen">
-                    <button type="submit">Agregar Actividad</button>
+                <form id="formulario-Actividad">
+                    <input type="text" id="tittle" placeholder="Título">
+                    <input type="text" id="description" placeholder="Descripción">
+                    <input type="url" id="imgUrl" placeholder="URL de la Imagen">
+                    <button type="submit">Agregar Actividades</button>
                 </form>
                 <div class="contenedor-actividades">
                 
                 </div>
             </section>
         </div>
-        <script src="/scripts/index.js"></script>
+        <script src="../scripts/index.js"></script>
     </main>
     <footer>
         <div class="foot">
